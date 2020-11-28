@@ -65,20 +65,12 @@
             <div class="signin-signup-form">
                 <div class="form-items">
                     <div class="form-title">Criar uma nova conta.</div>
-                    <form id="signupform">
-                        <div class="row">
-                            <div class="col-md-6 form-text">
-                                <input type="text" name="firstname" placeholder="Primeiro Nome" required>
-                            </div>
-                            <div class="col-md-6 form-text">
-                                <input type="text" name="lastname" placeholder="Último nome" required>
-                            </div>
+                    <form id="signupform" method="POST" action="lib/cadastro.php">
+                        <div class="form-text">
+                            <input type="text" name="email" placeholder="E-mail" required>
                         </div>
                         <div class="form-text">
-                            <input type="text" name="username" placeholder="E-mail" required>
-                        </div>
-                        <div class="form-text">
-                            <input type="password" name="password" placeholder="Senha" required>
+                            <input type="password" name="senha" placeholder="Senha" required>
                         </div>
                         <div class="form-button">
                             <button id="submit" type="submit" class="ybtn ybtn-accent-color">Criar Conta</button>

@@ -19,7 +19,7 @@
             <div class="logo" style="width:62px;height:18px"></div>
         </a>
     </div>
-    <<div class="row">
+    <div class="row">
         <div class="info-slider-holder">
             <div class="info-holder">
                 <h6 style="font-weight: lighter !important;">Seu emprego a poucos cliques de você!</h6>
@@ -58,22 +58,23 @@
         <div class="form-holder">
             <div class="menu-holder">
                 <ul class="main-links">
-                    <li><a class="normal-link" href="signup.html">Não tem uma conta?</a></li>
-                    <li><a class="sign-button" href="signup.html">Criar</a></li>
+                    <li><a class="normal-link" href="signup.php">Não tem uma conta?</a></li>
+                    <li><a class="sign-button" href="signup.php">Criar</a></li>
                 </ul>
             </div>
             <div class="signin-signup-form">
                 <div class="form-items">
                     <div class="form-title">Logar na sua conta.</div>
-                    <form id="signinform">
+                    <form id="signinform" method="POST" action="lib/login.php">
                         <div class="form-text">
-                            <input type="text" name="username" placeholder="E-mail" required>
+                            <input type="text" name="usuario" placeholder="E-mail" required>
                         </div>
                         <div class="form-text">
-                            <input type="password" name="password" placeholder="Senha" required>
+                            <input type="password" name="senha" placeholder="Senha" required>
                         </div>
                         <div class="form-button">
                             <button id="submit" type="submit" class="ybtn ybtn-accent-color">Entrar</button>
+                            <input type="hidden" name="env" value="log">
                         </div>
                     </form>
                 </div>
