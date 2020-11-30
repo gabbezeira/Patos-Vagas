@@ -10,10 +10,7 @@
 <link rel="stylesheet" type="text/css" href="css/slick.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/custom.css">
-<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
-
 <body>
 <div id="header-holder" class="main-header">
     <div class="bg-animation">
@@ -35,13 +32,13 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="logo-holder" href="index.html">
+                            <a class="logo-holder" href="index.php">
                                 <div class="logo" style="width:62px;height:18px"></div>
                             </a>
                         </div>
                         <div style="height: 1px;" role="main" aria-expanded="false" class="navbar-collapse collapse" id="bs">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="index.html">Início</a></li>
+                                <li><a href="index.php">Início</a></li>
                                 <li class="dropdown unity-menu">
                                     <a href="#">Parceiros <i class="fas fa-caret-down"></i></a>
                                     <ul class="dropdown-menu dropdown-unity">
@@ -100,7 +97,7 @@
                                     </ul>
                                 </li>
                                 <li><a href="#">Fale conosco</a></li>
-                                <li><a class="login-button" href="signin.html">Login</a></li>
+                                <li><a class="login-button" href="signin.php">Login</a></li>
                                 <li class="support-button-holder support-dropdown">
                                     <a class="support-button" href="#">Suporte</a>
                                     <ul class="dropdown-menu">
@@ -133,7 +130,7 @@
                             <div class="big-title">O seu <span>Emprego</span><br>a poucos cliques de você!</div>
                             <p>Encontre as melhores vagas do mercado de patos de minas. O seu novo emprego, você encontra aqui!</p>
                             <div class="btn-holder">
-                                <a href="signup.html" class="ybtn ybtn-header-color">Ver Vagas</a><a href="#" class="ybtn ybtn-white ybtn-shadow">Entre em contato</a>
+                                <a href="signup.php" class="ybtn ybtn-header-color">Ver Vagas</a><a href="#" class="ybtn ybtn-white ybtn-shadow">Entre em contato</a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +151,7 @@
                     é um site criado com o propósito de ajudar você que está em busca de um novo trabalho, Aqui
                     você encontrará aquela oportunidade que precisava! Então já sabe né? Fique de olho e seu novo
                     emprego estará a poucos cliques de você!</div>
-                <a href="signup.html" class="ybtn ybtn-accent-color ybtn-shadow">Criar uma conta!</a>
+                <a href="signup.php" class="ybtn ybtn-accent-color ybtn-shadow">Criar uma conta!</a>
             </div>
         </div>
     </div>
@@ -450,8 +447,8 @@
                 <div class="footer-menu-holder">
                     <h4>Outros</h4>
                     <ul class="footer-menu">
-                        <li><a href="signin.html">Entrar</a></li>
-                        <li><a href="signup.html">Criar Conta</a></li>
+                        <li><a href="signin.php">Entrar</a></li>
+                        <li><a href="signup.php">Criar Conta</a></li>
                     </ul>
                 </div>
             </div>

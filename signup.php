@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html>
 <head>
@@ -15,7 +18,7 @@
 <body class="fullpage">
 <div id="form-section" class="container-fluid signup">
     <div class="website-logo">
-        <a href="index.html">
+        <a href="index.php">
             <div class="logo" style="width:62px;height:18px"></div>
         </a>
     </div>
@@ -58,8 +61,8 @@
         <div class="form-holder">
             <div class="menu-holder">
                 <ul class="main-links">
-                    <li><a class="normal-link" href="signin.html">Já tem uma conta?</a></li>
-                    <li><a class="sign-button" href="signin.html">Entrar</a></li>
+                    <li><a class="normal-link" href="signin.php">Já tem uma conta?</a></li>
+                    <li><a class="sign-button" href="signin.php">Entrar</a></li>
                 </ul>
             </div>
             <div class="signin-signup-form">
@@ -67,7 +70,13 @@
                     <div class="form-title">Criar uma nova conta.</div>
                     <form id="signupform" method="POST" action="lib/cadastro.php">
                         <div class="form-text">
-                            <input type="text" name="email" placeholder="E-mail" required>
+                            <input type="text" name="nome" placeholder="Nome de Usuário" required>
+                        </div>
+                        <div class="form-text">
+                            <input type="text" name="telefone" placeholder="Telefone">
+                        </div>
+                        <div class="form-text">
+                            <input type="text" name="usuario" placeholder="E-mail" required>
                         </div>
                         <div class="form-text">
                             <input type="password" name="senha" placeholder="Senha" required>

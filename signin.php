@@ -15,7 +15,7 @@
 <body class="fullpage">
 <div id="form-section" class="container-fluid signin">
     <div class="website-logo">
-        <a href="index.html">
+        <a href="index.php">
             <div class="logo" style="width:62px;height:18px"></div>
         </a>
     </div>
@@ -58,8 +58,8 @@
         <div class="form-holder">
             <div class="menu-holder">
                 <ul class="main-links">
-                    <li><a class="normal-link" href="signup.html">Não tem uma conta?</a></li>
-                    <li><a class="sign-button" href="signup.html">Criar</a></li>
+                    <li><a class="normal-link" href="signup.php">Não tem uma conta?</a></li>
+                    <li><a class="sign-button" href="signup.php">Criar</a></li>
                 </ul>
             </div>
             <div class="signin-signup-form">
