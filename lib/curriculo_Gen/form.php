@@ -19,7 +19,7 @@
     //Alterar Textos
 
     $TBS->MergeField('pro.teste', $title);
-    $TBS->MergeField('pro.text', $text);
+    $TBS->MergeField('txt.text', $text);
     $TBS->MergeField('pro.nome', $nome);
     $TBS->MergeField('pro.data', $data);
     $TBS->VarRef['x'] = $logo;
