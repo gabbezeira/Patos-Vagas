@@ -30,7 +30,6 @@
     $output_file_name = str_replace('.', '_'.date('Y-m-d').$save_as.'.', $template);
     if ($save_as==='') {
         $TBS->Show(OPENTBS_DOWNLOAD, $output_file_name); 
-        header('location: .././index.php');
         exit();
     } else {
         $TBS->Show(OPENTBS_FILE, $output_file_name);
