@@ -8,7 +8,7 @@
     //Parametros
 
     $title = 'Certificação';
-    $text = 'Certificado de conclusão';
+    $text = 'Certificado de curso';
     $nome = 'Victor Michael';
     $data = date('d,m,Y');
     $logo = 'logo.jpg';
