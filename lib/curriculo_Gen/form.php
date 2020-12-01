@@ -34,5 +34,7 @@
     } else {
         $TBS->Show(OPENTBS_FILE, $output_file_name);
         exit("File [$output_file_name] has been created.");
+        header('location: .././index.php');
+        exit;
     }
 ?>
