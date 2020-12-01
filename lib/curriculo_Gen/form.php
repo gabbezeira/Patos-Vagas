@@ -29,12 +29,12 @@
     $save_as = (isset($_POST['save_as']) && (trim($_POST['save_as'])!=='') && ($_SERVER['SERVER_NAME']=='localhost')) ? trim($_POST['save_as']) : '';
     $output_file_name = str_replace('.', '_'.date('Y-m-d').$save_as.'.', $template);
     if ($save_as==='') {
-        header('location: ../index.php');
         $TBS->Show(OPENTBS_DOWNLOAD, $output_file_name);
+        header('location: .././index.php');
         exit();
     } else {
-        header('location: ../index.php');
         $TBS->Show(OPENTBS_FILE, $output_file_name);
+        header('location: .././index.php');
         exit("File [$output_file_name] has been created.");  
     }
 ?>
