@@ -1,7 +1,7 @@
 <?php
     include_once('tbs_class.php'); 
     include_once('plugins/tbs_plugin_opentbs.php');
-    include('../index.php');
+    include('/../../index.php');
 
     $TBS = new clsTinyButStrong; 
     $TBS->Plugin(TBS_INSTALL, OPENTBS_PLUGIN); 
